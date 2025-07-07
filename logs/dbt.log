@@ -1,0 +1,26 @@
+[0m11:42:38.535866 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6CF8DB620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6CF8DB6E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6CF8D9F70>]}
+
+
+============================== 11:42:38.547866 | 8daa8f27-86a0-4b99-b346-19c968e1717c ==============================
+[0m11:42:38.547866 [info ] [MainThread]: Running with dbt=1.7.19
+[0m11:42:38.549867 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\sebla\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init mon_projet', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:42:38.550867 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/sebla/.dbt')}
+[0m11:42:38.552309 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m11:42:38.556340 [debug] [MainThread]: Starter project path: C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO\my-dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m11:42:38.574338 [info ] [MainThread]: 
+Your new dbt project "mon_projet" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:42:38.577374 [info ] [MainThread]: Setting up your profile.
