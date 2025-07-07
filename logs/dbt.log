@@ -24,3 +24,932 @@ Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
 Happy modeling!
 
 [0m11:42:38.577374 [info ] [MainThread]: Setting up your profile.
+[0m16:31:42.793630 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015FD9A81CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015FD996E660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015FD9A81760>]}
+
+
+============================== 16:31:42.800634 | 0ae0d1a0-cabb-466e-92ca-4de20429535b ==============================
+[0m16:31:42.800634 [info ] [MainThread]: Running with dbt=1.7.19
+[0m16:31:42.802637 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\sebla\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m16:31:42.803632 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:31:42.806664 [debug] [MainThread]: Command `dbt run` failed at 16:31:42.806664 after 0.16 seconds
+[0m16:31:42.807664 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015FD98588C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015FD9AB7080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015FD9AB67B0>]}
+[0m16:31:42.808664 [debug] [MainThread]: Flushing usage events
+[0m17:12:39.101266 [debug] [MainThread]: Command `dbt init` succeeded at 17:12:39.098269 after 19800.72 seconds
+[0m17:12:39.103234 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6CF6B8470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6CF911F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6CF962180>]}
+[0m17:12:39.104236 [debug] [MainThread]: Flushing usage events
+[0m17:14:01.072920 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCB80F1D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCB80F1CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCB80F1BE0>]}
+
+
+============================== 17:14:01.077920 | 7cbae9ea-ffbe-4b17-9252-5eedf5466896 ==============================
+[0m17:14:01.077920 [info ] [MainThread]: Running with dbt=1.7.19
+[0m17:14:01.078922 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\sebla\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:14:01.079954 [info ] [MainThread]: dbt version: 1.7.19
+[0m17:14:01.080542 [info ] [MainThread]: python version: 3.12.3
+[0m17:14:01.081443 [info ] [MainThread]: python path: C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO\my-dbt-env\Scripts\python.exe
+[0m17:14:01.082202 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m17:14:01.234252 [info ] [MainThread]: Using profiles dir at C:\Users\sebla\.dbt
+[0m17:14:01.235219 [info ] [MainThread]: Using profiles.yml file at C:\Users\sebla\.dbt\profiles.yml
+[0m17:14:01.237252 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO\dbt_project.yml
+[0m17:14:01.239284 [info ] [MainThread]: Configuration:
+[0m17:14:01.241053 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m17:14:01.243278 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:14:01.245320 [info ] [MainThread]: Required dependencies:
+[0m17:14:01.247008 [debug] [MainThread]: Executing "git --help"
+[0m17:14:01.331888 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:14:01.332889 [debug] [MainThread]: STDERR: "b''"
+[0m17:14:01.333888 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:14:01.334889 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m17:14:01.335888 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:14:01.336888 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "mon_projet", target "dev" invalid: ['schema'] is not valid under any of the given schemas
+
+
+[0m17:14:01.337890 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO\dbt_project.yml> not found
+
+[0m17:14:01.340930 [debug] [MainThread]: Command `dbt debug` failed at 17:14:01.340930 after 0.40 seconds
+[0m17:14:01.341943 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCB8044CB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCB7D4BCE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCB7EF1880>]}
+[0m17:14:01.343942 [debug] [MainThread]: Flushing usage events
+[0m18:12:34.528067 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013E8A0E3E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013E89CD6930>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013E8A0E1430>]}
+
+
+============================== 18:12:34.533066 | b9a53acf-97d7-4ab9-9c06-75e698bdb3a8 ==============================
+[0m18:12:34.533066 [info ] [MainThread]: Running with dbt=1.7.19
+[0m18:12:34.534068 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\sebla\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:12:34.535069 [info ] [MainThread]: dbt version: 1.7.19
+[0m18:12:34.536069 [info ] [MainThread]: python version: 3.12.3
+[0m18:12:34.537067 [info ] [MainThread]: python path: C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO\my-dbt-env\Scripts\python.exe
+[0m18:12:34.538076 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m18:12:34.671067 [info ] [MainThread]: Using profiles dir at C:\Users\sebla\.dbt
+[0m18:12:34.672070 [info ] [MainThread]: Using profiles.yml file at C:\Users\sebla\.dbt\profiles.yml
+[0m18:12:34.673067 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO\dbt_project.yml
+[0m18:12:34.677069 [info ] [MainThread]: adapter type: mysql
+[0m18:12:34.679068 [info ] [MainThread]: adapter version: 1.7.0
+[0m18:12:34.681069 [info ] [MainThread]: Configuration:
+[0m18:12:34.685083 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:12:34.688082 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m18:12:34.690068 [info ] [MainThread]: Required dependencies:
+[0m18:12:34.691068 [debug] [MainThread]: Executing "git --help"
+[0m18:12:34.783068 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:12:34.784065 [debug] [MainThread]: STDERR: "b''"
+[0m18:12:34.785069 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:12:34.786067 [info ] [MainThread]: Connection:
+[0m18:12:34.787069 [info ] [MainThread]:   server: 127.0.0.1
+[0m18:12:34.788067 [info ] [MainThread]:   unix_socket: None
+[0m18:12:34.789067 [info ] [MainThread]:   port: 3306
+[0m18:12:34.790067 [info ] [MainThread]:   database: None
+[0m18:12:34.791071 [info ] [MainThread]:   schema: 
+[0m18:12:34.793070 [info ] [MainThread]:   user: root
+[0m18:12:34.794070 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m18:12:34.795071 [debug] [MainThread]: Acquiring new mysql connection 'debug'
+[0m18:12:34.797069 [debug] [MainThread]: Using mysql connection "debug"
+[0m18:12:34.798069 [debug] [MainThread]: On debug: select 1 as id
+[0m18:12:34.800078 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:12:34.815067 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.0 seconds
+[0m18:12:34.817067 [debug] [MainThread]: On debug: Close
+[0m18:12:34.818066 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m18:12:34.819066 [info ] [MainThread]: [31m1 check failed:[0m
+[0m18:12:34.820069 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO\dbt_project.yml> not found
+
+[0m18:12:34.822069 [debug] [MainThread]: Command `dbt debug` failed at 18:12:34.822069 after 0.43 seconds
+[0m18:12:34.823068 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m18:12:34.824069 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013E89F88D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013E893351F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013E8A01A930>]}
+[0m18:12:34.826074 [debug] [MainThread]: Flushing usage events
+[0m18:33:35.797315 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EFF460B620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EFF460BA70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EFF460A300>]}
+
+
+============================== 18:33:35.803315 | 6db27027-a34e-4a41-90ae-08f6ec42f409 ==============================
+[0m18:33:35.803315 [info ] [MainThread]: Running with dbt=1.7.9
+[0m18:33:35.804315 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\sebla\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m18:33:35.805315 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:33:35.808316 [debug] [MainThread]: Command `dbt run` failed at 18:33:35.808316 after 0.16 seconds
+[0m18:33:35.808316 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EFF380AA20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EFF460A030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EFF460A750>]}
+[0m18:33:35.809315 [debug] [MainThread]: Flushing usage events
+[0m18:44:56.404313 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ADEF540B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ADEF54C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ADEF55400>]}
+
+
+============================== 18:44:56.410314 | 4a4971aa-df0e-4353-b5c2-79a27918776e ==============================
+[0m18:44:56.410314 [info ] [MainThread]: Running with dbt=1.7.9
+[0m18:44:56.412315 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\sebla\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:44:56.413319 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:44:56.415318 [debug] [MainThread]: Command `dbt run` failed at 18:44:56.414318 after 0.14 seconds
+[0m18:44:56.415318 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ADEF54440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ADEF57A40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ADEF54C50>]}
+[0m18:44:56.416317 [debug] [MainThread]: Flushing usage events
+[0m18:57:25.806741 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C332819760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C332767110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C33281A750>]}
+
+
+============================== 18:57:25.815742 | 0bd3e160-384a-475e-9656-f9f2d3cad5d9 ==============================
+[0m18:57:25.815742 [info ] [MainThread]: Running with dbt=1.7.9
+[0m18:57:25.816742 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\sebla\\OneDrive\\Documents\\Séb\\Crs.WildCodeScholl\\Sem12\\DBT_DEMO', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\sebla\\OneDrive\\Documents\\Séb\\Crs.WildCodeScholl\\Sem12\\DBT_DEMO\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:57:25.817739 [info ] [MainThread]: dbt version: 1.7.9
+[0m18:57:25.818741 [info ] [MainThread]: python version: 3.12.3
+[0m18:57:25.819740 [info ] [MainThread]: python path: C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO\my-dbt-env\Scripts\python.exe
+[0m18:57:25.820742 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m18:57:26.310755 [info ] [MainThread]: Using profiles dir at C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO
+[0m18:57:26.311752 [info ] [MainThread]: Using profiles.yml file at C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO\profiles.yml
+[0m18:57:26.315903 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO\dbt_project.yml
+[0m18:57:26.323758 [info ] [MainThread]: adapter type: mysql
+[0m18:57:26.330758 [info ] [MainThread]: adapter version: 1.7.0
+[0m18:57:26.472755 [info ] [MainThread]: Configuration:
+[0m18:57:26.474756 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:57:26.475756 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m18:57:26.476757 [info ] [MainThread]: Required dependencies:
+[0m18:57:26.477755 [debug] [MainThread]: Executing "git --help"
+[0m18:57:26.559758 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:57:26.559758 [debug] [MainThread]: STDERR: "b''"
+[0m18:57:26.560759 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:57:26.561756 [info ] [MainThread]: Connection:
+[0m18:57:26.563758 [info ] [MainThread]:   server: 127.0.0.1
+[0m18:57:26.564759 [info ] [MainThread]:   unix_socket: None
+[0m18:57:26.566758 [info ] [MainThread]:   port: 3306
+[0m18:57:26.567757 [info ] [MainThread]:   database: None
+[0m18:57:26.568757 [info ] [MainThread]:   schema: 
+[0m18:57:26.569758 [info ] [MainThread]:   user: root
+[0m18:57:26.571759 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m18:57:26.572758 [debug] [MainThread]: Acquiring new mysql connection 'debug'
+[0m18:57:26.574758 [debug] [MainThread]: Using mysql connection "debug"
+[0m18:57:26.575759 [debug] [MainThread]: On debug: select 1 as id
+[0m18:57:26.577761 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:57:26.606768 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.0 seconds
+[0m18:57:26.608760 [debug] [MainThread]: On debug: Close
+[0m18:57:26.609770 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m18:57:26.610761 [info ] [MainThread]: [32mAll checks passed![0m
+[0m18:57:26.612766 [debug] [MainThread]: Command `dbt debug` succeeded at 18:57:26.612766 after 0.95 seconds
+[0m18:57:26.613758 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m18:57:26.614760 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C333C610D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C332708A40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C333C2D1F0>]}
+[0m18:57:26.616759 [debug] [MainThread]: Flushing usage events
+[0m18:57:31.086764 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BDEBCF1D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BDEBCD310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BDEBCFE00>]}
+
+
+============================== 18:57:31.091798 | 16d4f34c-25a2-41b3-9c8b-492683aca279 ==============================
+[0m18:57:31.091798 [info ] [MainThread]: Running with dbt=1.7.9
+[0m18:57:31.092765 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\sebla\\OneDrive\\Documents\\Séb\\Crs.WildCodeScholl\\Sem12\\DBT_DEMO', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\sebla\\OneDrive\\Documents\\Séb\\Crs.WildCodeScholl\\Sem12\\DBT_DEMO\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:57:31.443333 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '16d4f34c-25a2-41b3-9c8b-492683aca279', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BE0006C30>]}
+[0m18:57:31.572334 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '16d4f34c-25a2-41b3-9c8b-492683aca279', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BDDC5ABA0>]}
+[0m18:57:31.573336 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m18:57:31.586337 [debug] [MainThread]: checksum: 6ff0d83c3b46f350064523b4e08d9241403ad71d606ba49c4e670afba3668b39, vars: {}, profile: , target: , version: 1.7.9
+[0m18:57:31.587337 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m18:57:31.588338 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '16d4f34c-25a2-41b3-9c8b-492683aca279', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BDEABFBF0>]}
+[0m18:57:31.625342 [error] [MainThread]: Encountered an error:
+Parsing Error
+  The schema file at models\dbt_project.yml is invalid because the value of 'models' is not a list
+[0m18:57:31.627373 [debug] [MainThread]: Command `dbt run` failed at 18:57:31.626338 after 0.68 seconds
+[0m18:57:31.629339 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BDE9C6E70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BDEBCE150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BE019C890>]}
+[0m18:57:31.631339 [debug] [MainThread]: Flushing usage events
+[0m18:57:36.092268 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002018F7BDD60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002018F7BFDD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002018F7BDB50>]}
+
+
+============================== 18:57:36.100269 | 0a4db2be-6984-4297-ba23-ad9eccee75b6 ==============================
+[0m18:57:36.100269 [info ] [MainThread]: Running with dbt=1.7.9
+[0m18:57:36.102269 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\sebla\\OneDrive\\Documents\\Séb\\Crs.WildCodeScholl\\Sem12\\DBT_DEMO', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\sebla\\OneDrive\\Documents\\Séb\\Crs.WildCodeScholl\\Sem12\\DBT_DEMO\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt test', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m18:57:36.519587 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0a4db2be-6984-4297-ba23-ad9eccee75b6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002018F60A5D0>]}
+[0m18:57:36.648593 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0a4db2be-6984-4297-ba23-ad9eccee75b6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002018F60B2C0>]}
+[0m18:57:36.649593 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m18:57:36.661593 [debug] [MainThread]: checksum: 6ff0d83c3b46f350064523b4e08d9241403ad71d606ba49c4e670afba3668b39, vars: {}, profile: , target: , version: 1.7.9
+[0m18:57:36.663597 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m18:57:36.664593 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '0a4db2be-6984-4297-ba23-ad9eccee75b6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020190D10530>]}
+[0m18:57:36.694595 [error] [MainThread]: Encountered an error:
+Parsing Error
+  The schema file at models\dbt_project.yml is invalid because the value of 'models' is not a list
+[0m18:57:36.699602 [debug] [MainThread]: Command `dbt test` failed at 18:57:36.698627 after 0.75 seconds
+[0m18:57:36.700595 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002018F7BDFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020190B3AB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020190D47C80>]}
+[0m18:57:36.701601 [debug] [MainThread]: Flushing usage events
+[0m18:59:26.277548 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029E987CD0D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029E98646990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029E986E5520>]}
+
+
+============================== 18:59:26.282585 | 30dfdc28-dde6-477b-9c6c-e52c3c62feb7 ==============================
+[0m18:59:26.282585 [info ] [MainThread]: Running with dbt=1.7.9
+[0m18:59:26.284549 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\sebla\\OneDrive\\Documents\\Séb\\Crs.WildCodeScholl\\Sem12\\DBT_DEMO', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\sebla\\OneDrive\\Documents\\Séb\\Crs.WildCodeScholl\\Sem12\\DBT_DEMO\\logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m18:59:26.285552 [info ] [MainThread]: dbt version: 1.7.9
+[0m18:59:26.286640 [info ] [MainThread]: python version: 3.12.3
+[0m18:59:26.287719 [info ] [MainThread]: python path: C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO\my-dbt-env\Scripts\python.exe
+[0m18:59:26.288734 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m18:59:26.430732 [info ] [MainThread]: Using profiles dir at C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO
+[0m18:59:26.431596 [info ] [MainThread]: Using profiles.yml file at C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO\profiles.yml
+[0m18:59:26.432611 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO\dbt_project.yml
+[0m18:59:26.434609 [info ] [MainThread]: adapter type: mysql
+[0m18:59:26.436609 [info ] [MainThread]: adapter version: 1.7.0
+[0m18:59:26.544612 [info ] [MainThread]: Configuration:
+[0m18:59:26.546614 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:59:26.547614 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m18:59:26.548616 [info ] [MainThread]: Required dependencies:
+[0m18:59:26.550643 [debug] [MainThread]: Executing "git --help"
+[0m18:59:26.625616 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:59:26.626646 [debug] [MainThread]: STDERR: "b''"
+[0m18:59:26.627647 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:59:26.628614 [info ] [MainThread]: Connection:
+[0m18:59:26.629613 [info ] [MainThread]:   server: 127.0.0.1
+[0m18:59:26.630613 [info ] [MainThread]:   unix_socket: None
+[0m18:59:26.631615 [info ] [MainThread]:   port: 3306
+[0m18:59:26.632612 [info ] [MainThread]:   database: None
+[0m18:59:26.633613 [info ] [MainThread]:   schema: 
+[0m18:59:26.635615 [info ] [MainThread]:   user: root
+[0m18:59:26.636612 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m18:59:26.637613 [debug] [MainThread]: Acquiring new mysql connection 'debug'
+[0m18:59:26.638646 [debug] [MainThread]: Using mysql connection "debug"
+[0m18:59:26.638646 [debug] [MainThread]: On debug: select 1 as id
+[0m18:59:26.639650 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:59:26.657627 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.0 seconds
+[0m18:59:26.658620 [debug] [MainThread]: On debug: Close
+[0m18:59:26.659618 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m18:59:26.660614 [info ] [MainThread]: [32mAll checks passed![0m
+[0m18:59:26.662645 [debug] [MainThread]: Command `dbt debug` succeeded at 18:59:26.662645 after 0.52 seconds
+[0m18:59:26.662645 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m18:59:26.663618 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029E9861B980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029E985C54C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029E98646990>]}
+[0m18:59:26.664650 [debug] [MainThread]: Flushing usage events
+[0m18:59:31.081513 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218B94CE450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218B94CE4B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218B94CD010>]}
+
+
+============================== 18:59:31.087512 | c2d4bef4-b855-4cd8-88c0-c21dedb45bcd ==============================
+[0m18:59:31.087512 [info ] [MainThread]: Running with dbt=1.7.9
+[0m18:59:31.088515 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\sebla\\OneDrive\\Documents\\Séb\\Crs.WildCodeScholl\\Sem12\\DBT_DEMO\\logs', 'profiles_dir': 'C:\\Users\\sebla\\OneDrive\\Documents\\Séb\\Crs.WildCodeScholl\\Sem12\\DBT_DEMO', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m18:59:31.367835 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c2d4bef4-b855-4cd8-88c0-c21dedb45bcd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218B879F080>]}
+[0m18:59:31.521841 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c2d4bef4-b855-4cd8-88c0-c21dedb45bcd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218B92A3470>]}
+[0m18:59:31.524841 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m18:59:31.539841 [debug] [MainThread]: checksum: 6ff0d83c3b46f350064523b4e08d9241403ad71d606ba49c4e670afba3668b39, vars: {}, profile: , target: , version: 1.7.9
+[0m18:59:31.541841 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m18:59:31.543843 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'c2d4bef4-b855-4cd8-88c0-c21dedb45bcd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218BAAB6AB0>]}
+[0m18:59:33.612325 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c2d4bef4-b855-4cd8-88c0-c21dedb45bcd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218BAD1E3C0>]}
+[0m18:59:33.633325 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c2d4bef4-b855-4cd8-88c0-c21dedb45bcd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218BAEDAFC0>]}
+[0m18:59:33.635322 [info ] [MainThread]: Found 3 models, 4 tests, 1 source, 0 exposures, 0 metrics, 375 macros, 0 groups, 0 semantic models
+[0m18:59:33.637323 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c2d4bef4-b855-4cd8-88c0-c21dedb45bcd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218BAA36240>]}
+[0m18:59:33.641325 [info ] [MainThread]: 
+[0m18:59:33.655326 [debug] [MainThread]: Acquiring new mysql connection 'master'
+[0m18:59:33.660326 [debug] [ThreadPool]: Acquiring new mysql connection 'list_schemas'
+[0m18:59:33.702342 [debug] [ThreadPool]: Using mysql connection "list_schemas"
+[0m18:59:33.704324 [debug] [ThreadPool]: On list_schemas: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "connection_name": "list_schemas"} */
+select distinct schema_name
+        from information_schema.schemata
+[0m18:59:33.706326 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:59:33.738325 [debug] [ThreadPool]: SQL status: SUCCESS 9 in 0.0 seconds
+[0m18:59:33.741326 [debug] [ThreadPool]: On list_schemas: Close
+[0m18:59:33.745324 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_schemas, now create__)
+[0m18:59:33.747328 [debug] [ThreadPool]: Creating schema ""
+[0m18:59:33.760325 [debug] [ThreadPool]: Using mysql connection "create__"
+[0m18:59:33.762332 [debug] [ThreadPool]: On create__: BEGIN
+[0m18:59:33.763326 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m18:59:33.773326 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m18:59:33.775326 [debug] [ThreadPool]: Using mysql connection "create__"
+[0m18:59:33.776326 [debug] [ThreadPool]: On create__: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "connection_name": "create__"} */
+create schema if not exists ``
+[0m18:59:33.778325 [debug] [ThreadPool]: mysql adapter: MySQL error: 1102 (42000): Incorrect database name ''
+[0m18:59:33.780327 [debug] [ThreadPool]: On create__: ROLLBACK
+[0m18:59:33.782330 [debug] [ThreadPool]: mysql adapter: Error running SQL: macro create_schema
+[0m18:59:33.783327 [debug] [ThreadPool]: mysql adapter: Rolling back transaction.
+[0m18:59:33.785329 [debug] [ThreadPool]: On create__: Close
+[0m18:59:33.789325 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m18:59:33.790328 [debug] [MainThread]: Connection 'create__' was properly closed.
+[0m18:59:33.792327 [info ] [MainThread]: 
+[0m18:59:33.794326 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.14 seconds (0.14s).
+[0m18:59:33.796326 [error] [MainThread]: Encountered an error:
+Database Error
+  1102 (42000): Incorrect database name ''
+[0m18:59:33.800330 [debug] [MainThread]: Command `dbt run` failed at 18:59:33.800330 after 2.85 seconds
+[0m18:59:33.802327 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218BA6D0B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218BAD4BDA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218BAEDA510>]}
+[0m18:59:33.804328 [debug] [MainThread]: Flushing usage events
+[0m18:59:37.955370 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F76ACE9CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F76ACEA9F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F76ACEB980>]}
+
+
+============================== 18:59:37.960337 | bf93e903-3b28-415e-9444-860f0616253a ==============================
+[0m18:59:37.960337 [info ] [MainThread]: Running with dbt=1.7.9
+[0m18:59:37.961336 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\sebla\\OneDrive\\Documents\\Séb\\Crs.WildCodeScholl\\Sem12\\DBT_DEMO', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\sebla\\OneDrive\\Documents\\Séb\\Crs.WildCodeScholl\\Sem12\\DBT_DEMO\\logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt test', 'send_anonymous_usage_stats': 'True'}
+[0m18:59:38.234339 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'bf93e903-3b28-415e-9444-860f0616253a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F76AA3E9F0>]}
+[0m18:59:38.347343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'bf93e903-3b28-415e-9444-860f0616253a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F76C254B00>]}
+[0m18:59:38.348344 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m18:59:38.360341 [debug] [MainThread]: checksum: 6ff0d83c3b46f350064523b4e08d9241403ad71d606ba49c4e670afba3668b39, vars: {}, profile: , target: , version: 1.7.9
+[0m18:59:38.458378 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m18:59:38.458378 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m18:59:38.466344 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'bf93e903-3b28-415e-9444-860f0616253a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F76C31F0B0>]}
+[0m18:59:38.479348 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'bf93e903-3b28-415e-9444-860f0616253a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F76C3766C0>]}
+[0m18:59:38.481347 [info ] [MainThread]: Found 3 models, 4 tests, 1 source, 0 exposures, 0 metrics, 375 macros, 0 groups, 0 semantic models
+[0m18:59:38.482348 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'bf93e903-3b28-415e-9444-860f0616253a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F76A904170>]}
+[0m18:59:38.485345 [info ] [MainThread]: 
+[0m18:59:38.487079 [debug] [MainThread]: Acquiring new mysql connection 'master'
+[0m18:59:38.488318 [debug] [ThreadPool]: Acquiring new mysql connection 'list_None_'
+[0m18:59:38.504330 [debug] [ThreadPool]: Using mysql connection "list_None_"
+[0m18:59:38.505329 [debug] [ThreadPool]: On list_None_: BEGIN
+[0m18:59:38.506328 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:59:38.520292 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m18:59:38.521292 [debug] [ThreadPool]: Using mysql connection "list_None_"
+[0m18:59:38.522292 [debug] [ThreadPool]: On list_None_: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "connection_name": "list_None_"} */
+select
+      null as "database",
+      table_name as name,
+      table_schema as "schema",
+      case when table_type = 'BASE TABLE' then 'table'
+           when table_type = 'VIEW' then 'view'
+           else table_type
+      end as table_type
+    from information_schema.tables
+    where table_schema = ''
+  
+[0m18:59:38.530291 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m18:59:38.533292 [debug] [ThreadPool]: On list_None_: ROLLBACK
+[0m18:59:38.535304 [debug] [ThreadPool]: On list_None_: Close
+[0m18:59:38.537292 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'bf93e903-3b28-415e-9444-860f0616253a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F76AC05C40>]}
+[0m18:59:38.538324 [debug] [MainThread]: Using mysql connection "master"
+[0m18:59:38.539324 [debug] [MainThread]: On master: BEGIN
+[0m18:59:38.539324 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:59:38.548307 [debug] [MainThread]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m18:59:38.549325 [debug] [MainThread]: On master: COMMIT
+[0m18:59:38.550318 [debug] [MainThread]: Using mysql connection "master"
+[0m18:59:38.551323 [debug] [MainThread]: On master: COMMIT
+[0m18:59:38.552300 [debug] [MainThread]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m18:59:38.553325 [debug] [MainThread]: On master: Close
+[0m18:59:38.554292 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m18:59:38.555325 [info ] [MainThread]: 
+[0m18:59:38.563291 [debug] [Thread-1 (]: Began running node test.mon_projet.not_null_my_first_dbt_model_id.5fb22c2710
+[0m18:59:38.564294 [info ] [Thread-1 (]: 1 of 4 START test not_null_my_first_dbt_model_id ............................... [RUN]
+[0m18:59:38.566293 [debug] [Thread-1 (]: Acquiring new mysql connection 'test.mon_projet.not_null_my_first_dbt_model_id.5fb22c2710'
+[0m18:59:38.567295 [debug] [Thread-1 (]: Began compiling node test.mon_projet.not_null_my_first_dbt_model_id.5fb22c2710
+[0m18:59:38.593328 [debug] [Thread-1 (]: Writing injected SQL for node "test.mon_projet.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m18:59:38.596294 [debug] [Thread-1 (]: Timing info for test.mon_projet.not_null_my_first_dbt_model_id.5fb22c2710 (compile): 18:59:38.569295 => 18:59:38.595295
+[0m18:59:38.599295 [debug] [Thread-1 (]: Began executing node test.mon_projet.not_null_my_first_dbt_model_id.5fb22c2710
+[0m18:59:38.623294 [debug] [Thread-1 (]: Writing runtime sql for node "test.mon_projet.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m18:59:38.626292 [debug] [Thread-1 (]: Using mysql connection "test.mon_projet.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m18:59:38.627293 [debug] [Thread-1 (]: On test.mon_projet.not_null_my_first_dbt_model_id.5fb22c2710: BEGIN
+[0m18:59:38.628298 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m18:59:38.637040 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m18:59:38.638008 [debug] [Thread-1 (]: Using mysql connection "test.mon_projet.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m18:59:38.638008 [debug] [Thread-1 (]: On test.mon_projet.not_null_my_first_dbt_model_id.5fb22c2710: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "node_id": "test.mon_projet.not_null_my_first_dbt_model_id.5fb22c2710"} */
+select
+      count(*) as failures,
+      case
+        when count(*) <> 0 then 'true'
+        else 'false'
+      end as should_warn,
+      case
+        when count(*) <> 0 then 'true'
+        else 'false'
+      end as should_error
+    from (
+      
+    
+    
+
+
+
+select id
+from ``.`my_first_dbt_model`
+where id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m18:59:38.642013 [debug] [Thread-1 (]: mysql adapter: MySQL error: 1102 (42000): Incorrect database name ''
+[0m18:59:38.643049 [debug] [Thread-1 (]: On test.mon_projet.not_null_my_first_dbt_model_id.5fb22c2710: ROLLBACK
+[0m18:59:38.644005 [debug] [Thread-1 (]: Timing info for test.mon_projet.not_null_my_first_dbt_model_id.5fb22c2710 (execute): 18:59:38.601304 => 18:59:38.644005
+[0m18:59:38.645049 [debug] [Thread-1 (]: On test.mon_projet.not_null_my_first_dbt_model_id.5fb22c2710: Close
+[0m18:59:38.673895 [debug] [Thread-1 (]: Database Error in test not_null_my_first_dbt_model_id (models\staging\example\schema.yml)
+  1102 (42000): Incorrect database name ''
+  compiled Code at target\run\mon_projet\models\staging\example\schema.yml\not_null_my_first_dbt_model_id.sql
+[0m18:59:38.674895 [error] [Thread-1 (]: 1 of 4 ERROR not_null_my_first_dbt_model_id .................................... [[31mERROR[0m in 0.11s]
+[0m18:59:38.676278 [debug] [Thread-1 (]: Finished running node test.mon_projet.not_null_my_first_dbt_model_id.5fb22c2710
+[0m18:59:38.677277 [debug] [Thread-1 (]: Began running node test.mon_projet.not_null_my_second_dbt_model_id.151b76d778
+[0m18:59:38.678307 [info ] [Thread-1 (]: 2 of 4 START test not_null_my_second_dbt_model_id .............................. [RUN]
+[0m18:59:38.680182 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.mon_projet.not_null_my_first_dbt_model_id.5fb22c2710, now test.mon_projet.not_null_my_second_dbt_model_id.151b76d778)
+[0m18:59:38.681148 [debug] [Thread-1 (]: Began compiling node test.mon_projet.not_null_my_second_dbt_model_id.151b76d778
+[0m18:59:38.686180 [debug] [Thread-1 (]: Writing injected SQL for node "test.mon_projet.not_null_my_second_dbt_model_id.151b76d778"
+[0m18:59:38.689152 [debug] [Thread-1 (]: Timing info for test.mon_projet.not_null_my_second_dbt_model_id.151b76d778 (compile): 18:59:38.681148 => 18:59:38.688150
+[0m18:59:38.690150 [debug] [Thread-1 (]: Began executing node test.mon_projet.not_null_my_second_dbt_model_id.151b76d778
+[0m18:59:38.695149 [debug] [Thread-1 (]: Writing runtime sql for node "test.mon_projet.not_null_my_second_dbt_model_id.151b76d778"
+[0m18:59:38.698156 [debug] [Thread-1 (]: Using mysql connection "test.mon_projet.not_null_my_second_dbt_model_id.151b76d778"
+[0m18:59:38.699152 [debug] [Thread-1 (]: On test.mon_projet.not_null_my_second_dbt_model_id.151b76d778: BEGIN
+[0m18:59:38.700151 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m18:59:38.707038 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m18:59:38.708071 [debug] [Thread-1 (]: Using mysql connection "test.mon_projet.not_null_my_second_dbt_model_id.151b76d778"
+[0m18:59:38.709073 [debug] [Thread-1 (]: On test.mon_projet.not_null_my_second_dbt_model_id.151b76d778: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "node_id": "test.mon_projet.not_null_my_second_dbt_model_id.151b76d778"} */
+select
+      count(*) as failures,
+      case
+        when count(*) <> 0 then 'true'
+        else 'false'
+      end as should_warn,
+      case
+        when count(*) <> 0 then 'true'
+        else 'false'
+      end as should_error
+    from (
+      
+    
+    
+
+
+
+select id
+from ``.`my_second_dbt_model`
+where id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m18:59:38.711040 [debug] [Thread-1 (]: mysql adapter: MySQL error: 1102 (42000): Incorrect database name ''
+[0m18:59:38.712070 [debug] [Thread-1 (]: On test.mon_projet.not_null_my_second_dbt_model_id.151b76d778: ROLLBACK
+[0m18:59:38.714040 [debug] [Thread-1 (]: Timing info for test.mon_projet.not_null_my_second_dbt_model_id.151b76d778 (execute): 18:59:38.691153 => 18:59:38.713040
+[0m18:59:38.715040 [debug] [Thread-1 (]: On test.mon_projet.not_null_my_second_dbt_model_id.151b76d778: Close
+[0m18:59:38.722038 [debug] [Thread-1 (]: Database Error in test not_null_my_second_dbt_model_id (models\staging\example\schema.yml)
+  1102 (42000): Incorrect database name ''
+  compiled Code at target\run\mon_projet\models\staging\example\schema.yml\not_null_my_second_dbt_model_id.sql
+[0m18:59:38.723038 [error] [Thread-1 (]: 2 of 4 ERROR not_null_my_second_dbt_model_id ................................... [[31mERROR[0m in 0.04s]
+[0m18:59:38.725016 [debug] [Thread-1 (]: Finished running node test.mon_projet.not_null_my_second_dbt_model_id.151b76d778
+[0m18:59:38.726011 [debug] [Thread-1 (]: Began running node test.mon_projet.unique_my_first_dbt_model_id.16e066b321
+[0m18:59:38.726011 [info ] [Thread-1 (]: 3 of 4 START test unique_my_first_dbt_model_id ................................. [RUN]
+[0m18:59:38.728407 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.mon_projet.not_null_my_second_dbt_model_id.151b76d778, now test.mon_projet.unique_my_first_dbt_model_id.16e066b321)
+[0m18:59:38.728407 [debug] [Thread-1 (]: Began compiling node test.mon_projet.unique_my_first_dbt_model_id.16e066b321
+[0m18:59:38.739440 [debug] [Thread-1 (]: Writing injected SQL for node "test.mon_projet.unique_my_first_dbt_model_id.16e066b321"
+[0m18:59:38.742440 [debug] [Thread-1 (]: Timing info for test.mon_projet.unique_my_first_dbt_model_id.16e066b321 (compile): 18:59:38.729407 => 18:59:38.741411
+[0m18:59:38.743407 [debug] [Thread-1 (]: Began executing node test.mon_projet.unique_my_first_dbt_model_id.16e066b321
+[0m18:59:38.746406 [debug] [Thread-1 (]: Writing runtime sql for node "test.mon_projet.unique_my_first_dbt_model_id.16e066b321"
+[0m18:59:38.750426 [debug] [Thread-1 (]: Using mysql connection "test.mon_projet.unique_my_first_dbt_model_id.16e066b321"
+[0m18:59:38.752408 [debug] [Thread-1 (]: On test.mon_projet.unique_my_first_dbt_model_id.16e066b321: BEGIN
+[0m18:59:38.753414 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m18:59:38.761325 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m18:59:38.762370 [debug] [Thread-1 (]: Using mysql connection "test.mon_projet.unique_my_first_dbt_model_id.16e066b321"
+[0m18:59:38.765339 [debug] [Thread-1 (]: On test.mon_projet.unique_my_first_dbt_model_id.16e066b321: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "node_id": "test.mon_projet.unique_my_first_dbt_model_id.16e066b321"} */
+select
+      count(*) as failures,
+      case
+        when count(*) <> 0 then 'true'
+        else 'false'
+      end as should_warn,
+      case
+        when count(*) <> 0 then 'true'
+        else 'false'
+      end as should_error
+    from (
+      
+    
+    
+
+select
+    id as unique_field,
+    count(*) as n_records
+
+from ``.`my_first_dbt_model`
+where id is not null
+group by id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m18:59:38.768340 [debug] [Thread-1 (]: mysql adapter: MySQL error: 1102 (42000): Incorrect database name ''
+[0m18:59:38.769337 [debug] [Thread-1 (]: On test.mon_projet.unique_my_first_dbt_model_id.16e066b321: ROLLBACK
+[0m18:59:38.770338 [debug] [Thread-1 (]: Timing info for test.mon_projet.unique_my_first_dbt_model_id.16e066b321 (execute): 18:59:38.743407 => 18:59:38.770338
+[0m18:59:38.771336 [debug] [Thread-1 (]: On test.mon_projet.unique_my_first_dbt_model_id.16e066b321: Close
+[0m18:59:38.776335 [debug] [Thread-1 (]: Database Error in test unique_my_first_dbt_model_id (models\staging\example\schema.yml)
+  1102 (42000): Incorrect database name ''
+  compiled Code at target\run\mon_projet\models\staging\example\schema.yml\unique_my_first_dbt_model_id.sql
+[0m18:59:38.777336 [error] [Thread-1 (]: 3 of 4 ERROR unique_my_first_dbt_model_id ...................................... [[31mERROR[0m in 0.05s]
+[0m18:59:38.778755 [debug] [Thread-1 (]: Finished running node test.mon_projet.unique_my_first_dbt_model_id.16e066b321
+[0m18:59:38.779722 [debug] [Thread-1 (]: Began running node test.mon_projet.unique_my_second_dbt_model_id.57a0f8c493
+[0m18:59:38.781721 [info ] [Thread-1 (]: 4 of 4 START test unique_my_second_dbt_model_id ................................ [RUN]
+[0m18:59:38.783752 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.mon_projet.unique_my_first_dbt_model_id.16e066b321, now test.mon_projet.unique_my_second_dbt_model_id.57a0f8c493)
+[0m18:59:38.784722 [debug] [Thread-1 (]: Began compiling node test.mon_projet.unique_my_second_dbt_model_id.57a0f8c493
+[0m18:59:38.793753 [debug] [Thread-1 (]: Writing injected SQL for node "test.mon_projet.unique_my_second_dbt_model_id.57a0f8c493"
+[0m18:59:38.795724 [debug] [Thread-1 (]: Timing info for test.mon_projet.unique_my_second_dbt_model_id.57a0f8c493 (compile): 18:59:38.786726 => 18:59:38.794756
+[0m18:59:38.797726 [debug] [Thread-1 (]: Began executing node test.mon_projet.unique_my_second_dbt_model_id.57a0f8c493
+[0m18:59:38.801723 [debug] [Thread-1 (]: Writing runtime sql for node "test.mon_projet.unique_my_second_dbt_model_id.57a0f8c493"
+[0m18:59:38.803722 [debug] [Thread-1 (]: Using mysql connection "test.mon_projet.unique_my_second_dbt_model_id.57a0f8c493"
+[0m18:59:38.804725 [debug] [Thread-1 (]: On test.mon_projet.unique_my_second_dbt_model_id.57a0f8c493: BEGIN
+[0m18:59:38.805722 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m18:59:38.811724 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m18:59:38.813725 [debug] [Thread-1 (]: Using mysql connection "test.mon_projet.unique_my_second_dbt_model_id.57a0f8c493"
+[0m18:59:38.814731 [debug] [Thread-1 (]: On test.mon_projet.unique_my_second_dbt_model_id.57a0f8c493: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "node_id": "test.mon_projet.unique_my_second_dbt_model_id.57a0f8c493"} */
+select
+      count(*) as failures,
+      case
+        when count(*) <> 0 then 'true'
+        else 'false'
+      end as should_warn,
+      case
+        when count(*) <> 0 then 'true'
+        else 'false'
+      end as should_error
+    from (
+      
+    
+    
+
+select
+    id as unique_field,
+    count(*) as n_records
+
+from ``.`my_second_dbt_model`
+where id is not null
+group by id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m18:59:38.816727 [debug] [Thread-1 (]: mysql adapter: MySQL error: 1102 (42000): Incorrect database name ''
+[0m18:59:38.818725 [debug] [Thread-1 (]: On test.mon_projet.unique_my_second_dbt_model_id.57a0f8c493: ROLLBACK
+[0m18:59:38.820726 [debug] [Thread-1 (]: Timing info for test.mon_projet.unique_my_second_dbt_model_id.57a0f8c493 (execute): 18:59:38.799726 => 18:59:38.820726
+[0m18:59:38.821754 [debug] [Thread-1 (]: On test.mon_projet.unique_my_second_dbt_model_id.57a0f8c493: Close
+[0m18:59:38.826756 [debug] [Thread-1 (]: Database Error in test unique_my_second_dbt_model_id (models\staging\example\schema.yml)
+  1102 (42000): Incorrect database name ''
+  compiled Code at target\run\mon_projet\models\staging\example\schema.yml\unique_my_second_dbt_model_id.sql
+[0m18:59:38.827753 [error] [Thread-1 (]: 4 of 4 ERROR unique_my_second_dbt_model_id ..................................... [[31mERROR[0m in 0.05s]
+[0m18:59:38.829723 [debug] [Thread-1 (]: Finished running node test.mon_projet.unique_my_second_dbt_model_id.57a0f8c493
+[0m18:59:38.833757 [debug] [MainThread]: Using mysql connection "master"
+[0m18:59:38.833757 [debug] [MainThread]: On master: BEGIN
+[0m18:59:38.834723 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m18:59:38.841727 [debug] [MainThread]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m18:59:38.842759 [debug] [MainThread]: On master: COMMIT
+[0m18:59:38.842759 [debug] [MainThread]: Using mysql connection "master"
+[0m18:59:38.843724 [debug] [MainThread]: On master: COMMIT
+[0m18:59:38.844724 [debug] [MainThread]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m18:59:38.846726 [debug] [MainThread]: On master: Close
+[0m18:59:38.849724 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m18:59:38.850725 [debug] [MainThread]: Connection 'list_None_' was properly closed.
+[0m18:59:38.852727 [debug] [MainThread]: Connection 'test.mon_projet.unique_my_second_dbt_model_id.57a0f8c493' was properly closed.
+[0m18:59:38.853724 [info ] [MainThread]: 
+[0m18:59:38.854724 [info ] [MainThread]: Finished running 4 tests in 0 hours 0 minutes and 0.37 seconds (0.37s).
+[0m18:59:38.856753 [debug] [MainThread]: Command end result
+[0m18:59:38.871725 [info ] [MainThread]: 
+[0m18:59:38.873726 [info ] [MainThread]: [31mCompleted with 4 errors and 0 warnings:[0m
+[0m18:59:38.874727 [info ] [MainThread]: 
+[0m18:59:38.876726 [error] [MainThread]:   Database Error in test not_null_my_first_dbt_model_id (models\staging\example\schema.yml)
+  1102 (42000): Incorrect database name ''
+  compiled Code at target\run\mon_projet\models\staging\example\schema.yml\not_null_my_first_dbt_model_id.sql
+[0m18:59:38.877723 [info ] [MainThread]: 
+[0m18:59:38.879725 [error] [MainThread]:   Database Error in test not_null_my_second_dbt_model_id (models\staging\example\schema.yml)
+  1102 (42000): Incorrect database name ''
+  compiled Code at target\run\mon_projet\models\staging\example\schema.yml\not_null_my_second_dbt_model_id.sql
+[0m18:59:38.882725 [info ] [MainThread]: 
+[0m18:59:38.884740 [error] [MainThread]:   Database Error in test unique_my_first_dbt_model_id (models\staging\example\schema.yml)
+  1102 (42000): Incorrect database name ''
+  compiled Code at target\run\mon_projet\models\staging\example\schema.yml\unique_my_first_dbt_model_id.sql
+[0m18:59:38.886725 [info ] [MainThread]: 
+[0m18:59:38.887724 [error] [MainThread]:   Database Error in test unique_my_second_dbt_model_id (models\staging\example\schema.yml)
+  1102 (42000): Incorrect database name ''
+  compiled Code at target\run\mon_projet\models\staging\example\schema.yml\unique_my_second_dbt_model_id.sql
+[0m18:59:38.889725 [info ] [MainThread]: 
+[0m18:59:38.890725 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=4 SKIP=0 TOTAL=4
+[0m18:59:38.892758 [debug] [MainThread]: Command `dbt test` failed at 18:59:38.892758 after 1.07 seconds
+[0m18:59:38.894733 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F76AB89370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F76AB3A900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F76AC05C40>]}
+[0m18:59:38.894733 [debug] [MainThread]: Flushing usage events
+[0m19:04:33.394183 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8DBF1D340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8DBF1DC40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8DBF1FDA0>]}
+
+
+============================== 19:04:33.399182 | fe8011b6-aa4d-4002-9bb4-d358797c65a7 ==============================
+[0m19:04:33.399182 [info ] [MainThread]: Running with dbt=1.7.9
+[0m19:04:33.401188 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\sebla\\OneDrive\\Documents\\Séb\\Crs.WildCodeScholl\\Sem12\\DBT_DEMO', 'log_path': 'C:\\Users\\sebla\\OneDrive\\Documents\\Séb\\Crs.WildCodeScholl\\Sem12\\DBT_DEMO\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m19:04:33.402219 [info ] [MainThread]: dbt version: 1.7.9
+[0m19:04:33.403133 [info ] [MainThread]: python version: 3.12.3
+[0m19:04:33.404237 [info ] [MainThread]: python path: C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO\my-dbt-env\Scripts\python.exe
+[0m19:04:33.405120 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m19:04:33.551830 [info ] [MainThread]: Using profiles dir at C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO
+[0m19:04:33.552802 [info ] [MainThread]: Using profiles.yml file at C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO\profiles.yml
+[0m19:04:33.553800 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\sebla\OneDrive\Documents\Séb\Crs.WildCodeScholl\Sem12\DBT_DEMO\dbt_project.yml
+[0m19:04:33.555829 [info ] [MainThread]: adapter type: mysql
+[0m19:04:33.556798 [info ] [MainThread]: adapter version: 1.7.0
+[0m19:04:33.664797 [info ] [MainThread]: Configuration:
+[0m19:04:33.666799 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m19:04:33.667802 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m19:04:33.668800 [info ] [MainThread]: Required dependencies:
+[0m19:04:33.669800 [debug] [MainThread]: Executing "git --help"
+[0m19:04:33.741800 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:04:33.742801 [debug] [MainThread]: STDERR: "b''"
+[0m19:04:33.743833 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:04:33.744799 [info ] [MainThread]: Connection:
+[0m19:04:33.745837 [info ] [MainThread]:   server: 127.0.0.1
+[0m19:04:33.746834 [info ] [MainThread]:   unix_socket: None
+[0m19:04:33.748803 [info ] [MainThread]:   port: 3306
+[0m19:04:33.750801 [info ] [MainThread]:   database: None
+[0m19:04:33.751804 [info ] [MainThread]:   schema: 
+[0m19:04:33.753803 [info ] [MainThread]:   user: root
+[0m19:04:33.756801 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m19:04:33.757802 [debug] [MainThread]: Acquiring new mysql connection 'debug'
+[0m19:04:33.758818 [debug] [MainThread]: Using mysql connection "debug"
+[0m19:04:33.758818 [debug] [MainThread]: On debug: select 1 as id
+[0m19:04:33.759834 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:04:33.776802 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.0 seconds
+[0m19:04:33.777802 [debug] [MainThread]: On debug: Close
+[0m19:04:33.778836 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m19:04:33.781815 [info ] [MainThread]: [32mAll checks passed![0m
+[0m19:04:33.784812 [debug] [MainThread]: Command `dbt debug` succeeded at 19:04:33.783803 after 0.52 seconds
+[0m19:04:33.786825 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m19:04:33.787810 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8DBE66E70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8DBD954C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8DBC6E9C0>]}
+[0m19:04:33.788833 [debug] [MainThread]: Flushing usage events
+[0m19:06:32.119511 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0AE67B8C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0AE67B7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0AE67BA70>]}
+
+
+============================== 19:06:32.124500 | 100b03b5-00fe-4bde-82df-ab8ccd9b90a0 ==============================
+[0m19:06:32.124500 [info ] [MainThread]: Running with dbt=1.7.9
+[0m19:06:32.126347 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\sebla\\OneDrive\\Documents\\Séb\\Crs.WildCodeScholl\\Sem12\\DBT_DEMO', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\sebla\\OneDrive\\Documents\\Séb\\Crs.WildCodeScholl\\Sem12\\DBT_DEMO\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:06:32.403021 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '100b03b5-00fe-4bde-82df-ab8ccd9b90a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0AFA6ED20>]}
+[0m19:06:32.519990 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '100b03b5-00fe-4bde-82df-ab8ccd9b90a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0AE44FB90>]}
+[0m19:06:32.521989 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m19:06:32.532991 [debug] [MainThread]: checksum: 6ff0d83c3b46f350064523b4e08d9241403ad71d606ba49c4e670afba3668b39, vars: {}, profile: , target: , version: 1.7.9
+[0m19:06:32.544992 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m19:06:32.545993 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '100b03b5-00fe-4bde-82df-ab8ccd9b90a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0AFD6C290>]}
+[0m19:06:34.074422 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '100b03b5-00fe-4bde-82df-ab8ccd9b90a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0AFECE6C0>]}
+[0m19:06:34.088421 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '100b03b5-00fe-4bde-82df-ab8ccd9b90a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0AFE5E6F0>]}
+[0m19:06:34.090421 [info ] [MainThread]: Found 3 models, 4 tests, 1 source, 0 exposures, 0 metrics, 375 macros, 0 groups, 0 semantic models
+[0m19:06:34.092422 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '100b03b5-00fe-4bde-82df-ab8ccd9b90a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0AFECE6C0>]}
+[0m19:06:34.095422 [info ] [MainThread]: 
+[0m19:06:34.098422 [debug] [MainThread]: Acquiring new mysql connection 'master'
+[0m19:06:34.108424 [debug] [ThreadPool]: Acquiring new mysql connection 'list_schemas'
+[0m19:06:34.143420 [debug] [ThreadPool]: Using mysql connection "list_schemas"
+[0m19:06:34.145421 [debug] [ThreadPool]: On list_schemas: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "connection_name": "list_schemas"} */
+select distinct schema_name
+        from information_schema.schemata
+[0m19:06:34.146424 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m19:06:34.174423 [debug] [ThreadPool]: SQL status: SUCCESS 9 in 0.0 seconds
+[0m19:06:34.177422 [debug] [ThreadPool]: On list_schemas: Close
+[0m19:06:34.181423 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_schemas, now create___my_dbt_db)
+[0m19:06:34.183425 [debug] [ThreadPool]: Creating schema "schema: "_my_dbt_db"
+"
+[0m19:06:34.196424 [debug] [ThreadPool]: Using mysql connection "create___my_dbt_db"
+[0m19:06:34.198422 [debug] [ThreadPool]: On create___my_dbt_db: BEGIN
+[0m19:06:34.200422 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m19:06:34.209423 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.211425 [debug] [ThreadPool]: Using mysql connection "create___my_dbt_db"
+[0m19:06:34.212422 [debug] [ThreadPool]: On create___my_dbt_db: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "connection_name": "create___my_dbt_db"} */
+create schema if not exists `_my_dbt_db`
+[0m19:06:34.227425 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.0 seconds
+[0m19:06:34.229424 [debug] [ThreadPool]: On create___my_dbt_db: COMMIT
+[0m19:06:34.230425 [debug] [ThreadPool]: Using mysql connection "create___my_dbt_db"
+[0m19:06:34.231426 [debug] [ThreadPool]: On create___my_dbt_db: COMMIT
+[0m19:06:34.232423 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.233423 [debug] [ThreadPool]: On create___my_dbt_db: Close
+[0m19:06:34.237423 [debug] [ThreadPool]: Acquiring new mysql connection 'list_None__my_dbt_db'
+[0m19:06:34.248427 [debug] [ThreadPool]: Using mysql connection "list_None__my_dbt_db"
+[0m19:06:34.250424 [debug] [ThreadPool]: On list_None__my_dbt_db: BEGIN
+[0m19:06:34.251425 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m19:06:34.260425 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.262422 [debug] [ThreadPool]: Using mysql connection "list_None__my_dbt_db"
+[0m19:06:34.263424 [debug] [ThreadPool]: On list_None__my_dbt_db: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "connection_name": "list_None__my_dbt_db"} */
+select
+      null as "database",
+      table_name as name,
+      table_schema as "schema",
+      case when table_type = 'BASE TABLE' then 'table'
+           when table_type = 'VIEW' then 'view'
+           else table_type
+      end as table_type
+    from information_schema.tables
+    where table_schema = '_my_dbt_db'
+  
+[0m19:06:34.267424 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.271424 [debug] [ThreadPool]: On list_None__my_dbt_db: ROLLBACK
+[0m19:06:34.272425 [debug] [ThreadPool]: On list_None__my_dbt_db: Close
+[0m19:06:34.275425 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '100b03b5-00fe-4bde-82df-ab8ccd9b90a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0AE116B10>]}
+[0m19:06:34.276424 [debug] [MainThread]: Using mysql connection "master"
+[0m19:06:34.278425 [debug] [MainThread]: On master: BEGIN
+[0m19:06:34.279426 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:06:34.286425 [debug] [MainThread]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.288427 [debug] [MainThread]: On master: COMMIT
+[0m19:06:34.289425 [debug] [MainThread]: Using mysql connection "master"
+[0m19:06:34.291427 [debug] [MainThread]: On master: COMMIT
+[0m19:06:34.292428 [debug] [MainThread]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.293426 [debug] [MainThread]: On master: Close
+[0m19:06:34.295427 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m19:06:34.297425 [info ] [MainThread]: 
+[0m19:06:34.304425 [debug] [Thread-1 (]: Began running node model.mon_projet.my_first_dbt_model
+[0m19:06:34.306427 [info ] [Thread-1 (]: 1 of 3 START sql table model _my_dbt_db.my_first_dbt_model ..................... [RUN]
+[0m19:06:34.309425 [debug] [Thread-1 (]: Acquiring new mysql connection 'model.mon_projet.my_first_dbt_model'
+[0m19:06:34.311426 [debug] [Thread-1 (]: Began compiling node model.mon_projet.my_first_dbt_model
+[0m19:06:34.333427 [debug] [Thread-1 (]: Writing injected SQL for node "model.mon_projet.my_first_dbt_model"
+[0m19:06:34.337428 [debug] [Thread-1 (]: Timing info for model.mon_projet.my_first_dbt_model (compile): 19:06:34.312426 => 19:06:34.336426
+[0m19:06:34.343435 [debug] [Thread-1 (]: Began executing node model.mon_projet.my_first_dbt_model
+[0m19:06:34.481426 [debug] [Thread-1 (]: Writing runtime sql for node "model.mon_projet.my_first_dbt_model"
+[0m19:06:34.483428 [debug] [Thread-1 (]: Using mysql connection "model.mon_projet.my_first_dbt_model"
+[0m19:06:34.484427 [debug] [Thread-1 (]: On model.mon_projet.my_first_dbt_model: BEGIN
+[0m19:06:34.485426 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m19:06:34.492428 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.492428 [debug] [Thread-1 (]: Using mysql connection "model.mon_projet.my_first_dbt_model"
+[0m19:06:34.494431 [debug] [Thread-1 (]: On model.mon_projet.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "node_id": "model.mon_projet.my_first_dbt_model"} */
+
+  
+    
+
+  create  table
+    `_my_dbt_db`.`my_first_dbt_model__dbt_tmp`
+    
+    
+      as
+    
+    (
+      /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    )
+
+  
+[0m19:06:34.542432 [debug] [Thread-1 (]: SQL status: SUCCESS 2 in 0.0 seconds
+[0m19:06:34.557434 [debug] [Thread-1 (]: Using mysql connection "model.mon_projet.my_first_dbt_model"
+[0m19:06:34.558431 [debug] [Thread-1 (]: On model.mon_projet.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "node_id": "model.mon_projet.my_first_dbt_model"} */
+
+    drop table if exists `_my_dbt_db`.`my_first_dbt_model` cascade
+  
+[0m19:06:34.563429 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.566434 [debug] [Thread-1 (]: Using mysql connection "model.mon_projet.my_first_dbt_model"
+[0m19:06:34.567432 [debug] [Thread-1 (]: On model.mon_projet.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "node_id": "model.mon_projet.my_first_dbt_model"} */
+
+    rename table `_my_dbt_db`.`my_first_dbt_model__dbt_tmp` to `_my_dbt_db`.`my_first_dbt_model`
+  
+[0m19:06:34.595465 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.619429 [debug] [Thread-1 (]: On model.mon_projet.my_first_dbt_model: COMMIT
+[0m19:06:34.620470 [debug] [Thread-1 (]: Using mysql connection "model.mon_projet.my_first_dbt_model"
+[0m19:06:34.621465 [debug] [Thread-1 (]: On model.mon_projet.my_first_dbt_model: COMMIT
+[0m19:06:34.622463 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.629461 [debug] [Thread-1 (]: Using mysql connection "model.mon_projet.my_first_dbt_model"
+[0m19:06:34.629461 [debug] [Thread-1 (]: On model.mon_projet.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "node_id": "model.mon_projet.my_first_dbt_model"} */
+drop table if exists `_my_dbt_db`.`my_first_dbt_model__dbt_backup`
+[0m19:06:34.634433 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.636465 [debug] [Thread-1 (]: Timing info for model.mon_projet.my_first_dbt_model (execute): 19:06:34.345427 => 19:06:34.636465
+[0m19:06:34.637464 [debug] [Thread-1 (]: On model.mon_projet.my_first_dbt_model: Close
+[0m19:06:34.638464 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '100b03b5-00fe-4bde-82df-ab8ccd9b90a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0AFD326C0>]}
+[0m19:06:34.639464 [info ] [Thread-1 (]: 1 of 3 OK created sql table model _my_dbt_db.my_first_dbt_model ................ [[32mSUCCESS 2[0m in 0.33s]
+[0m19:06:34.641432 [debug] [Thread-1 (]: Finished running node model.mon_projet.my_first_dbt_model
+[0m19:06:34.642435 [debug] [Thread-1 (]: Began running node model.mon_projet.stg_customers
+[0m19:06:34.643432 [info ] [Thread-1 (]: 2 of 3 START sql view model _my_dbt_db.stg_customers ........................... [RUN]
+[0m19:06:34.644434 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.mon_projet.my_first_dbt_model, now model.mon_projet.stg_customers)
+[0m19:06:34.645435 [debug] [Thread-1 (]: Began compiling node model.mon_projet.stg_customers
+[0m19:06:34.648434 [debug] [Thread-1 (]: Writing injected SQL for node "model.mon_projet.stg_customers"
+[0m19:06:34.651433 [debug] [Thread-1 (]: Timing info for model.mon_projet.stg_customers (compile): 19:06:34.645435 => 19:06:34.650432
+[0m19:06:34.652432 [debug] [Thread-1 (]: Began executing node model.mon_projet.stg_customers
+[0m19:06:34.691434 [debug] [Thread-1 (]: Writing runtime sql for node "model.mon_projet.stg_customers"
+[0m19:06:34.693441 [debug] [Thread-1 (]: Using mysql connection "model.mon_projet.stg_customers"
+[0m19:06:34.694433 [debug] [Thread-1 (]: On model.mon_projet.stg_customers: BEGIN
+[0m19:06:34.695474 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m19:06:34.704436 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.705436 [debug] [Thread-1 (]: Using mysql connection "model.mon_projet.stg_customers"
+[0m19:06:34.707434 [debug] [Thread-1 (]: On model.mon_projet.stg_customers: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "node_id": "model.mon_projet.stg_customers"} */
+
+  create view `_my_dbt_db`.`stg_customers__dbt_tmp`
+    
+    
+  as (
+    with source as (
+
+    select * 
+    from `my_dbt_db`.`raw_customers`
+
+),
+
+renamed as (
+
+    select
+        id as customer_id,
+        name as customer_name
+    from source
+
+)
+
+select * from renamed
+  );
+[0m19:06:34.720436 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.724435 [debug] [Thread-1 (]: Using mysql connection "model.mon_projet.stg_customers"
+[0m19:06:34.725436 [debug] [Thread-1 (]: On model.mon_projet.stg_customers: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "node_id": "model.mon_projet.stg_customers"} */
+
+    drop view if exists `_my_dbt_db`.`stg_customers` cascade
+  
+[0m19:06:34.729434 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.731436 [debug] [Thread-1 (]: Using mysql connection "model.mon_projet.stg_customers"
+[0m19:06:34.731436 [debug] [Thread-1 (]: On model.mon_projet.stg_customers: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "node_id": "model.mon_projet.stg_customers"} */
+
+    rename table `_my_dbt_db`.`stg_customers__dbt_tmp` to `_my_dbt_db`.`stg_customers`
+  
+[0m19:06:34.742433 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.745437 [debug] [Thread-1 (]: On model.mon_projet.stg_customers: COMMIT
+[0m19:06:34.746437 [debug] [Thread-1 (]: Using mysql connection "model.mon_projet.stg_customers"
+[0m19:06:34.746437 [debug] [Thread-1 (]: On model.mon_projet.stg_customers: COMMIT
+[0m19:06:34.748438 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.751436 [debug] [Thread-1 (]: Using mysql connection "model.mon_projet.stg_customers"
+[0m19:06:34.752436 [debug] [Thread-1 (]: On model.mon_projet.stg_customers: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "node_id": "model.mon_projet.stg_customers"} */
+drop view if exists `_my_dbt_db`.`stg_customers__dbt_backup`
+[0m19:06:34.759446 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.762435 [debug] [Thread-1 (]: Timing info for model.mon_projet.stg_customers (execute): 19:06:34.653432 => 19:06:34.761441
+[0m19:06:34.763442 [debug] [Thread-1 (]: On model.mon_projet.stg_customers: Close
+[0m19:06:34.764436 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '100b03b5-00fe-4bde-82df-ab8ccd9b90a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0B00CFA40>]}
+[0m19:06:34.765439 [info ] [Thread-1 (]: 2 of 3 OK created sql view model _my_dbt_db.stg_customers ...................... [[32mSUCCESS 0[0m in 0.12s]
+[0m19:06:34.767434 [debug] [Thread-1 (]: Finished running node model.mon_projet.stg_customers
+[0m19:06:34.768441 [debug] [Thread-1 (]: Began running node model.mon_projet.my_second_dbt_model
+[0m19:06:34.769434 [info ] [Thread-1 (]: 3 of 3 START sql view model _my_dbt_db.my_second_dbt_model ..................... [RUN]
+[0m19:06:34.770436 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.mon_projet.stg_customers, now model.mon_projet.my_second_dbt_model)
+[0m19:06:34.771441 [debug] [Thread-1 (]: Began compiling node model.mon_projet.my_second_dbt_model
+[0m19:06:34.775436 [debug] [Thread-1 (]: Writing injected SQL for node "model.mon_projet.my_second_dbt_model"
+[0m19:06:34.777437 [debug] [Thread-1 (]: Timing info for model.mon_projet.my_second_dbt_model (compile): 19:06:34.772439 => 19:06:34.776434
+[0m19:06:34.778435 [debug] [Thread-1 (]: Began executing node model.mon_projet.my_second_dbt_model
+[0m19:06:34.787434 [debug] [Thread-1 (]: Writing runtime sql for node "model.mon_projet.my_second_dbt_model"
+[0m19:06:34.789435 [debug] [Thread-1 (]: Using mysql connection "model.mon_projet.my_second_dbt_model"
+[0m19:06:34.790435 [debug] [Thread-1 (]: On model.mon_projet.my_second_dbt_model: BEGIN
+[0m19:06:34.790435 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m19:06:34.798435 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.799470 [debug] [Thread-1 (]: Using mysql connection "model.mon_projet.my_second_dbt_model"
+[0m19:06:34.800454 [debug] [Thread-1 (]: On model.mon_projet.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "node_id": "model.mon_projet.my_second_dbt_model"} */
+
+  create view `_my_dbt_db`.`my_second_dbt_model__dbt_tmp`
+    
+    
+  as (
+    -- Use the `ref` function to select from other models
+
+select *
+from `_my_dbt_db`.`my_first_dbt_model`
+where id = 1
+  );
+[0m19:06:34.816525 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.823435 [debug] [Thread-1 (]: Using mysql connection "model.mon_projet.my_second_dbt_model"
+[0m19:06:34.824443 [debug] [Thread-1 (]: On model.mon_projet.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "node_id": "model.mon_projet.my_second_dbt_model"} */
+
+    drop view if exists `_my_dbt_db`.`my_second_dbt_model` cascade
+  
+[0m19:06:34.829444 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.831436 [debug] [Thread-1 (]: Using mysql connection "model.mon_projet.my_second_dbt_model"
+[0m19:06:34.832435 [debug] [Thread-1 (]: On model.mon_projet.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "node_id": "model.mon_projet.my_second_dbt_model"} */
+
+    rename table `_my_dbt_db`.`my_second_dbt_model__dbt_tmp` to `_my_dbt_db`.`my_second_dbt_model`
+  
+[0m19:06:34.843454 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.846467 [debug] [Thread-1 (]: On model.mon_projet.my_second_dbt_model: COMMIT
+[0m19:06:34.846467 [debug] [Thread-1 (]: Using mysql connection "model.mon_projet.my_second_dbt_model"
+[0m19:06:34.847469 [debug] [Thread-1 (]: On model.mon_projet.my_second_dbt_model: COMMIT
+[0m19:06:34.848474 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.853438 [debug] [Thread-1 (]: Using mysql connection "model.mon_projet.my_second_dbt_model"
+[0m19:06:34.853438 [debug] [Thread-1 (]: On model.mon_projet.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "mon_projet", "target_name": "dev", "node_id": "model.mon_projet.my_second_dbt_model"} */
+drop view if exists `_my_dbt_db`.`my_second_dbt_model__dbt_backup`
+[0m19:06:34.860808 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.863683 [debug] [Thread-1 (]: Timing info for model.mon_projet.my_second_dbt_model (execute): 19:06:34.779435 => 19:06:34.862687
+[0m19:06:34.863683 [debug] [Thread-1 (]: On model.mon_projet.my_second_dbt_model: Close
+[0m19:06:34.865651 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '100b03b5-00fe-4bde-82df-ab8ccd9b90a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0B00CE240>]}
+[0m19:06:34.866652 [info ] [Thread-1 (]: 3 of 3 OK created sql view model _my_dbt_db.my_second_dbt_model ................ [[32mSUCCESS 0[0m in 0.10s]
+[0m19:06:34.868692 [debug] [Thread-1 (]: Finished running node model.mon_projet.my_second_dbt_model
+[0m19:06:34.870681 [debug] [MainThread]: Using mysql connection "master"
+[0m19:06:34.871650 [debug] [MainThread]: On master: BEGIN
+[0m19:06:34.872654 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m19:06:34.880154 [debug] [MainThread]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.881169 [debug] [MainThread]: On master: COMMIT
+[0m19:06:34.881169 [debug] [MainThread]: Using mysql connection "master"
+[0m19:06:34.882200 [debug] [MainThread]: On master: COMMIT
+[0m19:06:34.883427 [debug] [MainThread]: SQL status: SUCCESS 0 in 0.0 seconds
+[0m19:06:34.884438 [debug] [MainThread]: On master: Close
+[0m19:06:34.886442 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m19:06:34.887476 [debug] [MainThread]: Connection 'create___my_dbt_db' was properly closed.
+[0m19:06:34.888450 [debug] [MainThread]: Connection 'list_None__my_dbt_db' was properly closed.
+[0m19:06:34.890440 [debug] [MainThread]: Connection 'model.mon_projet.my_second_dbt_model' was properly closed.
+[0m19:06:34.892469 [info ] [MainThread]: 
+[0m19:06:34.893443 [info ] [MainThread]: Finished running 1 table model, 2 view models in 0 hours 0 minutes and 0.79 seconds (0.79s).
+[0m19:06:34.895473 [debug] [MainThread]: Command end result
+[0m19:06:34.907473 [info ] [MainThread]: 
+[0m19:06:34.908437 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m19:06:34.910439 [info ] [MainThread]: 
+[0m19:06:34.912031 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m19:06:34.914211 [debug] [MainThread]: Command `dbt run` succeeded at 19:06:34.914211 after 2.93 seconds
+[0m19:06:34.915210 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0B00D78C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0AFCA97F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0AE67B7D0>]}
+[0m19:06:34.915210 [debug] [MainThread]: Flushing usage events

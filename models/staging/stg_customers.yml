@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: "Table de staging pour les clients, avec renommage des colonnes."
+    columns:
+      - name: customer_id
+        description: "Identifiant unique du client"
+      - name: customer_name
+        description: "Nom complet du client"
