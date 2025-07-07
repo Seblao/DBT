@@ -4,7 +4,7 @@ from sqlalchemy_utils import database_exists, create_database
 
 # Paramètres de connexion.
 username = "root"
-password = "Synspilum1+"
+password = "...."
 host = "localhost"
 port = 3306
 database = "my_dbt_db"
