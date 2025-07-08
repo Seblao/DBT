@@ -3,7 +3,7 @@
     
 
   create  table
-    `_my_dbt_db`.`my_first_dbt_model__dbt_tmp`
+    `dbt_demo_my_dbt_db`.`my_first_dbt_model__dbt_tmp`
     
     
       as

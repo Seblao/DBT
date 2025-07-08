@@ -3,9 +3,9 @@
   outputs:
     dev:
       type: mysql
-      threads: 1
-      host: 127.0.0.1
+      server: 127.0.0.1
       port: 3306
       user: root
       password: Synspilum1+
-      database: my_dbt_db
+      schema: dbt_demo  # Nom de ta base de données dans MySQL
+      database: dbt_demo  # <- doit être le même que `schema`

@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: dbt_demo
+    database: dbt_demo   # (facultatif avec MySQL)
+    tables:
+      - name: orders
+        description: "Raw orders table from dbt_demo"
+      - name: customers
+        description: "Raw customers table from dbt_demo"
