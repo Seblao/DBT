@@ -1,0 +1,16 @@
+name: 'mon_projet'
+version: '1.0.0'
+profile: 'mon_projet'  # doit être strictement identique au nom du profil dans profiles.yml
+
+model-paths: ["models"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  mon_projet:
+    +database: my_dbt_db
+    +schema: my_dbt_db
+    staging:
+      +materialized: view
