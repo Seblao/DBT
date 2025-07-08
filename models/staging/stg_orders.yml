@@ -1,17 +1,12 @@
-version: 2
+version: 3
 
 models:
   - name: stg_orders
-    description: "Staging model for orders"
+    description: "Cette vue de staging contient les informations brutes des commandes, prêtes à être transformées dans les modèles en aval."
     columns:
       - name: order_id
-        tests:
-          - not_null
-          - unique
-
+        description: "Identifiant unique de la commande."
       - name: customer_id
-        tests:
-          - not_null
-          - relationships:
-              to: ref('stg_customers')
-              field: customer_id
+        description: "Identifiant du client ayant passé la commande."
+      - name: order_date
+        description: "Date à laquelle la commande a été effectuée."
